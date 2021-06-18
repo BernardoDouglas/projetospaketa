@@ -1,0 +1,86 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:rgba(0, 0, 0, 0.157);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+.header {
+	background-color: rgb(160, 7, 160);
+	color:white;
+	padding: 20px 15px;
+	text-align: center;
+	width: 100%;
+}
+
+ h1 {
+	margin: 0 0 15px;
+}
+
+.header textarea {
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 10px;
+	min-height: 70px;
+	max-width: 100%;
+	width: 500px;
+}
+
+.count-container {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.container {
+	margin: 20px 10px;
+	max-width: 100%;
+	width: 700px;
+}
+
+.suggestion {
+	background-color: white;
+	padding: 10px;
+	display: flex;
+}
+
+
+.suggestion .block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 60px;
+	text-align: center;
+}
+
+.suggestion .block p {
+	margin: 10px 0 0;
+}
+
+.suggestion .block .votes {
+	display: block;
+	font-size: 22px;
+}
+
+.vote-btn {
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+}
+
+
+

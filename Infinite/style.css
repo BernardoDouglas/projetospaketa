@@ -1,0 +1,32 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #353b48;
+	color:white;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 100vh;
+	padding-bottom: 100px;
+}
+
+h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.post {
+	background-color: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	display: flex;
+	padding: 20px;
+	margin: 40px 0;
+	width: 80vw;
+	max-width: 800px;
+}
+
